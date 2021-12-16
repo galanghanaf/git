@@ -1,32 +1,41 @@
 # Belajar Git dan Github
-- **Langkah pertama membuat repositori github terlebih dahulu, setelah itu ikuti langkah selanjutnya**
 
-- **Memanggil repo github**
->git clone https://github.com/(lokasi repositori)
+## Memanggil repositori github
+```bash
+git clone https://github.com/(lokasi repositori)
 
->git clone https://github.com/galanghanaf/belajar-git.git
+git clone https://github.com/galanghanaf/belajar-git.git
+```
+## Masuk kedalam repositori github
+```
+cd /belajar-git
+```
+## Membuat folder dalam folder belajar-git
+```
+mkdir git
+```
+## Membuat file dalam folder belajar-git/git/
+```
+touch git/index.html
 
-- **Masuk kedalam repo github**
->cd /belajar-git
-- **Membuat folder**
->mkdir git
+touch git/index.js
 
-- **Membuat file**
->touch git/index.html
+touch git/main.css
+```
 
->touch git/index.js
+## Mengecek status git
+```
+git status
+```
+## Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya
+```
+git add <namafile>
 
->touch git/main.css
+git add .
+```
+## Selajutnya lakukan commit
+```
+git commit -m '<jelaskan aktivitas yang diubah>'
 
-- **Mengecek status git**
->git status
-
-- **Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya**
->git add <file/spesifik>
-
->git add .
-
-- **Lalu lakukan commit**
->git commit -m '(jelaskan aktivitas yang diubah)'
-
->git commit -m 'menambahkan file'
+git commit -m 'menambahkan file'
+```
