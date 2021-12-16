@@ -1,5 +1,5 @@
 # Belajar Git dan Github
-Langkah pertama membuat repositori github terlebih dahulu, setelah itu ikuti langkah selanjutnya.
+- **Langkah pertama membuat repositori github terlebih dahulu, setelah itu ikuti langkah selanjutnya**
 
 - **Memanggil repo github**
 >git clone https://github.com/(lokasi repositori)
@@ -8,7 +8,7 @@ Langkah pertama membuat repositori github terlebih dahulu, setelah itu ikuti lan
 
 - **Masuk kedalam repo github**
 >cd /belajar-git
-- Membuat folder
+- **Membuat folder**
 >mkdir git
 
 - **Membuat file**
@@ -21,12 +21,12 @@ Langkah pertama membuat repositori github terlebih dahulu, setelah itu ikuti lan
 - **Mengecek status git**
 >git status
 
-- **Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya.**
+- **Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya**
 >git add <file/spesifik>
 
 >git add .
 
-- **Lalu lakukan Commit**
+- **Lalu lakukan ommit**
 >git commit -m '(jelaskan aktivitas yang diubah)'
 
 >git commit -m 'menambahkan file'
