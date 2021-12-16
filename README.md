@@ -26,7 +26,7 @@
 
 >git add .
 
-- **Lalu lakukan ommit**
+- **Lalu lakukan commit**
 >git commit -m '(jelaskan aktivitas yang diubah)'
 
 >git commit -m 'menambahkan file'
