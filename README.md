@@ -32,7 +32,7 @@ git clone https://github.com/galanghanaf/belajar-git.git
 ```
 ## Masuk kedalam repositori github
 ```
-cd /belajar-git
+cd ./belajar-git
 ```
 
 ## Membuat file
@@ -72,9 +72,14 @@ git restore --staged index.html
 ```
 ## Selajutnya lakukan commit
 ```
-git commit -m 'jelaskan aktivitas yang diubah'
+git commit -m 'jelaskan aktivitas yang dilakukan'
 ```
 - contoh
 ```
 git commit -m 'menambahkan file'
+```
+
+## Melihat history commit
+```
+git log
 ```
