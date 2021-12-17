@@ -108,7 +108,7 @@ git show 4jf233a1a6ac8fac081fdc6e3873ccd1li7da5cb
 setelah itu akan muncul tampilan seperti dibawah ini
 ```
 commit d73233a1a6ac8fac0816206e3873ccd1a3fda5cb (HEAD -> main, origin/main, origin/HEAD)
-Author: galanghanaf <galanghanafi8@gmail.com>
+Author: galanghanafi <galanghanafi8@gmail.com>
 Date:   Fri Dec 17 18:58:27 2021 +0700
 
     update index.js
@@ -120,4 +120,8 @@ index e69de29..2ac23f8 100644
 @@ -0,0 +1 @@
 +console.log("halo git");
 \ No newline at end of file
+```
+## Melakukan git push ke github
+```
+git push -u origin main
 ```
