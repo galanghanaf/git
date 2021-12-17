@@ -1,7 +1,7 @@
-# Belajar Git dan Github
+# Tutorial Git dan Github
 
 ## Konfigurasi git
-### Konfigurasi nama
+#### Konfigurasi nama
 ```
 git config --global user.name "nama"
 ```
@@ -9,13 +9,17 @@ git config --global user.name "nama"
 ```
 git config --global user.name "Galang Hanafi"
 ```
-### Konfigurasi email
+#### Konfigurasi email
 ```
 git config --global user.email "nama@email.com"
 ```
 - contoh
 ```
 git config --global user.email "galanghanafi8@gmail.com"
+```
+## Melihat hasil konfigurasi git
+```
+git config -l
 ```
 
 ## Memanggil repositori github
@@ -31,12 +35,14 @@ git clone https://github.com/galanghanaf/belajar-git.git
 cd /belajar-git
 ```
 
-## Membuat file dalam folder belajar-git/git/
+## Membuat file
 ```
 touch index.html
-
+```
+```
 touch index.js
-
+```
+```
 touch main.css
 ```
 
