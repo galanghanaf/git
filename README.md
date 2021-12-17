@@ -1,26 +1,43 @@
 # Belajar Git dan Github
 
-## Memanggil repositori github
-```bash
-git clone https://github.com/(lokasi repositori)
+## Konfigurasi git
+### Konfigurasi nama
+```
+git config --global user.name "nama"
+```
+- contoh
+```
+git config --global user.name "Galang Hanafi"
+```
+### Konfigurasi email
+```
+git config --global user.email "nama@email.com"
+```
+- contoh
+```
+git config --global user.email "galanghanafi8@gmail.com"
+```
 
+## Memanggil repositori github
+```
+git clone https://github.com/lokasi-repositori
+```
+- contoh
+```
 git clone https://github.com/galanghanaf/belajar-git.git
 ```
 ## Masuk kedalam repositori github
 ```
 cd /belajar-git
 ```
-## Membuat folder dalam folder belajar-git
-```
-mkdir git
-```
+
 ## Membuat file dalam folder belajar-git/git/
 ```
-touch git/index.html
+touch index.html
 
-touch git/index.js
+touch index.js
 
-touch git/main.css
+touch main.css
 ```
 
 ## Mengecek status git
@@ -30,12 +47,28 @@ git status
 ## Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya
 ```
 git add <namafile>
-
+```
+- contoh add spesifik file
+```
+git add index.html
+```
+- contoh add seluruh file
+```
 git add .
+```
+## Apabila tidak jadi melakukan git add, maka dapat dikembalikan ke keadaan sebelum di git add
+```
+git restore --staged <namafile>
+```
+- contoh
+```
+git restore --staged index.html
 ```
 ## Selajutnya lakukan commit
 ```
-git commit -m '<jelaskan aktivitas yang diubah>'
-
+git commit -m 'jelaskan aktivitas yang diubah'
+```
+- contoh
+```
 git commit -m 'menambahkan file'
 ```
