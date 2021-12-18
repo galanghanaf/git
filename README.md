@@ -67,7 +67,7 @@ git add index.html
 git add .
 ```
 
-## Apabila tidak jadi melakukan git add, maka dapat dikembalikan ke keadaan sebelum di git add
+#### Apabila tidak jadi melakukan git add, maka dapat dikembalikan ke keadaan sebelum di git add
 ```
 git restore --staged <namafile>
 ```
@@ -85,7 +85,7 @@ git commit -m 'deskripsikan aktivitas yang dilakukan'
 git commit -m 'menambahkan file'
 ```
 
-## Apabila kita salah mendeskripsikan aktivitas pada commit, kita tetap bisa mengubah deskripsi aktivitas, namun cara ini hanya bekerja pada commit terbaru
+#### Apabila kita salah mendeskripsikan aktivitas pada commit, kita tetap bisa mengubah deskripsi aktivitas, namun cara ini hanya bekerja pada commit terbaru
 ```
 git commit --amend -m 'menambahkan file index.html'
 ```
@@ -133,7 +133,8 @@ index e69de29..2ac23f8 100644
 git push -u origin main
 ```
 
-## Cara melakukan pull atau mengabil atau mengecek, apakah ada perubahan code pada repo yang ada pada github
+## Cara melakukan pull
+Git Pull adalah kondisi mengambil atau mengecek, apakah ada perubahan code pada repo yang ada di github
 ```
 git pull
 ```
