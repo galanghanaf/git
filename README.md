@@ -9,6 +9,7 @@ git config --global user.name 'nama'
 ```
 git config --global user.name 'Galang Hanafi'
 ```
+
 #### Konfigurasi email
 ```
 git config --global user.email 'nama@email.com'
@@ -17,6 +18,7 @@ git config --global user.email 'nama@email.com'
 ```
 git config --global user.email 'galanghanafi8@gmail.com'
 ```
+
 ## Melihat hasil konfigurasi git
 ```
 git config -l
@@ -30,6 +32,7 @@ git clone https://github.com/lokasi-repositori
 ```
 git clone https://github.com/galanghanaf/belajar-git.git
 ```
+
 ## Masuk kedalam repositori github
 ```
 cd ./belajar-git
@@ -50,6 +53,7 @@ touch main.css
 ```
 git status
 ```
+
 ## Setelah itu lakukan git add pada file, bisa spesifik atau seluruhnya
 ```
 git add <namafile>
@@ -62,6 +66,7 @@ git add index.html
 ```
 git add .
 ```
+
 ## Apabila tidak jadi melakukan git add, maka dapat dikembalikan ke keadaan sebelum di git add
 ```
 git restore --staged <namafile>
@@ -70,6 +75,7 @@ git restore --staged <namafile>
 ```
 git restore --staged index.html
 ```
+
 ## Selajutnya lakukan commit
 ```
 git commit -m 'deskripsikan aktivitas yang dilakukan'
@@ -78,9 +84,8 @@ git commit -m 'deskripsikan aktivitas yang dilakukan'
 ```
 git commit -m 'menambahkan file'
 ```
-## Apabila kita salah mendeskripsikan aktivitas pada commit, kita tetap bisa mengubah deskripsi aktivitas, namun cara ini hanya bekerja pada commit terbaru
 
-## Melihat perubahan
+## Apabila kita salah mendeskripsikan aktivitas pada commit, kita tetap bisa mengubah deskripsi aktivitas, namun cara ini hanya bekerja pada commit terbaru
 ```
 git commit --amend -m 'menambahkan file index.html'
 ```
@@ -97,6 +102,7 @@ Date:   Fri Dec 17 18:58:27 2021 +0700
 
     update index.js
 ```
+
 ## Melihat perubahan dari isi hash commit
 ```
 git show <kode hash commit>
@@ -121,7 +127,64 @@ index e69de29..2ac23f8 100644
 +console.log("halo git");
 \ No newline at end of file
 ```
-## Melakukan git push ke github
+
+## Melakukan push ke github
 ```
 git push -u origin main
+```
+
+## Melakukan pull ke github
+```
+git pull
+```
+
+## Cara membuat branch
+```
+git branch <nama>
+```
+- contoh
+```
+git branch project_a
+```
+
+## Melihat total branch di lokal
+```
+git branch
+```
+
+## Melihat total branch di github
+```
+git branch -r
+```
+
+## Melakukan push branch ke github
+```
+git push -u origin <nama_branch>
+```
+- contoh
+```
+git push -u origin project_a
+```
+
+## Switch branch
+```
+git checkout project_a
+```
+
+## Kembali ke branch utama
+```
+git checkout main
+```
+
+## Cara merge branch project_a ke main
+```
+git checkout main
+```
+- Optional
+```
+git merge project_a
+```
+- ### Paling Disarankan
+```
+git merge --squash project_a
 ```
