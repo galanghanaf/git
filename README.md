@@ -133,7 +133,7 @@ index e69de29..2ac23f8 100644
 git push -u origin main
 ```
 
-## Melakukan pull ke github
+## Cara melakukan pull atau mengabil atau mengecek, apakah ada perubahan code pada repo yang ada pada github
 ```
 git pull
 ```
@@ -184,7 +184,7 @@ git checkout main
 ```
 git merge project_a
 ```
-- ### Paling Disarankan
+- #### Paling Disarankan
 ```
 git merge --squash project_a
 ```
