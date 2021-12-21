@@ -1,4 +1,4 @@
-# Tutorial Git dan Github
+# Belajar Git dan Github
 
 ## Konfigurasi git
 #### Konfigurasi nama
