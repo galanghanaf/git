@@ -158,6 +158,15 @@ git branch
 git branch -r
 ```
 
+## Cara menghapus branch
+```
+git branch -d <nama>
+```
+- contoh
+```
+git branch -d project_a
+```
+
 ## Melakukan push branch ke github
 ```
 git push -u origin <nama_branch>
@@ -189,3 +198,4 @@ git merge project_a
 ```
 git merge --squash project_a
 ```
+- ### Lebih disarankan melakukan merge digithub secara langsung, apabila menggunakan git remote.
